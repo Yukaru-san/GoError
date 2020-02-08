@@ -1,5 +1,5 @@
 # GoError
-A simpel Java-oriented library to handle errors in Go
+A simple Java-oriented library to handle errors in Go
 
 # Installation
 ```go
