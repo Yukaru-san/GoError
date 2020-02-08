@@ -29,21 +29,3 @@ func (tcf ErrorHandler) Do() {
 	}
 	tcf.Try()
 }
-
-/*  Example
-
-Block{
-		Try: func() {
-			fmt.Println("I tried")
-			Throw("Oh,...sh...")
-		},
-		Catch: func(e Exception) {
-			fmt.Printf("Caught %v\n", e)
-		},
-		Finally: func() {
-			fmt.Println("Finally...")
-		},
-	}.Do()
-
-
-*/
