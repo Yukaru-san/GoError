@@ -9,14 +9,14 @@ go get github.com/Yukaru-san/GoError
 # Usage
 ```go
 Block{
-		Try: func() { 
+   Try: func() { 
       // Try your code here
-		},
-		Catch: func(e Exception) {
-			// Handle errors here
-		},
-		Finally: func() {
-			// Conclude handling
-		},
-	}.Do()
+   },
+   Catch: func(e Exception) {
+      // Handle errors here
+   },
+   Finally: func() {
+      // Conclude handling
+   },
+}.Do()
 ```
