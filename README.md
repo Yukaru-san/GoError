@@ -8,11 +8,11 @@ go get github.com/Yukaru-san/GoError
 
 # Usage
 ```go
-errorhandle.ErrorHandler{
+goerror.ErrorHandler{
    Try: func() {
       // Try your code here
    },
-   Catch: func(e errorhandle.Exception) {
+   Catch: func(e goerror.Exception) {
       // Handle errors here
    },
    Finally: func() {
