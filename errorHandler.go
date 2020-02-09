@@ -1,4 +1,4 @@
-package errorhandle
+package goerror
 
 // ErrorHandler á la Java
 type ErrorHandler struct {
