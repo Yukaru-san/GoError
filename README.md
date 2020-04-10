@@ -1,5 +1,6 @@
 # GoError
-A simple Java-oriented library to handle errors in Go
+In go you don't handle errors the way you do in java - and you shouldn't. But if you are new to golang and want to use the
+good 'ol try-catch from java:<br><b>here you go</b>
 
 # Installation
 ```go
